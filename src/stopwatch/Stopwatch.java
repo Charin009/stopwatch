@@ -24,8 +24,6 @@ public class Stopwatch {
      * if isRunnig() is true, start() will not work
      */
 	void start(){
-		startTime = 0 ;
-		endTime = 0;
 		if(isRunning()==false){
 			startTime = System.nanoTime();
 			this.isRun=true;
@@ -50,8 +48,11 @@ public class Stopwatch {
 	 * @return totalTime is elapsed between you start() and stop() Stopwatch.
 	 */
 	double getElapsed(){
-		double totalTime = (endTime-startTime)*NANOSECONDS;
-		return totalTime;
+		if(isRunning()==false){
+			double totalTime = (endTime-startTime)*NANOSECONDS;
+			return totalTime;	
+		}	
+		return (System.nanoTime()-startTime)*NANOSECONDS;
 	}
 	
     /**
