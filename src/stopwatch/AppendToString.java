@@ -1,5 +1,8 @@
 package stopwatch;
-
+/**
+*AppendToString task. This task use to append string to string.
+*@author Charin Tantrakul.
+*/
 public class AppendToString implements Runnable {
 	final char CHAR = 'a';
 	private String result = "";
