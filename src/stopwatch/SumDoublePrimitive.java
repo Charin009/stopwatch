@@ -1,5 +1,8 @@
 package stopwatch;
-
+/**
+*This class use to find sum of primitive double.
+*@author Charin tantrakul
+*/
 public class SumDoublePrimitive implements Runnable {
 	double[] values = new double[500000];
 	private int counter;
