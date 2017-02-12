@@ -2,7 +2,7 @@ package stopwatch;
 
 import java.math.BigDecimal;
 /**
- * 
+ * This class use to find sum of Bigdecimal.
  * @author Charin Tantrakul
  *
  */
