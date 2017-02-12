@@ -1,8 +1,7 @@
 package stopwatch;
 /**
- * 
+ * This class use to find sum of double
  * @author Charin Tantrakul
- *
  */
 public class SumDouble implements Runnable {
 	/*
