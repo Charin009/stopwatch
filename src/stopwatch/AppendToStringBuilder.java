@@ -1,5 +1,9 @@
 package stopwatch;
-
+/**
+*
+*AppendToStringBuilder use to append string to StringBuilder.
+*@author Charin Tantrakul.
+*/
 public class AppendToStringBuilder implements Runnable {
 	final char CHAR = 'a';
 	StringBuilder builder = new StringBuilder(); 
